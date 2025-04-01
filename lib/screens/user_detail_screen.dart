@@ -322,7 +322,7 @@ class _UserDetailScreenState extends State<UserDetailScreen> {
       dismissOnBackKeyPress: false,
       dismissOnTouchOutside: false,
       context: context,
-      dialogType: DialogType.INFO,
+      dialogType: DialogType.info,
       title: 'This will delete your all data!',
       btnOkOnPress: () {
         Navigator.of(context).pushReplacement(
