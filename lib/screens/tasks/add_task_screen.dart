@@ -350,7 +350,7 @@ class _AddTaskState extends State<AddTask> {
         dismissOnBackKeyPress: false,
         dismissOnTouchOutside: false,
         context: context,
-        dialogType: DialogType.INFO,
+        dialogType: DialogType.info,
         title: 'Add a title to the task!',
         btnOkOnPress: () {
           Navigator.of(context).pop;

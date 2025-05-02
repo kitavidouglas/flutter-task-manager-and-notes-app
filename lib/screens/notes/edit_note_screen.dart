@@ -174,7 +174,7 @@ class _EditNoteState extends State<EditNote> {
         dismissOnBackKeyPress: false,
         dismissOnTouchOutside: false,
         context: context,
-        dialogType: DialogType.INFO,
+        dialogType: DialogType.info,
         title: 'Please fill all the feilds!',
         btnOkOnPress: () {
           Navigator.of(context).pop;
